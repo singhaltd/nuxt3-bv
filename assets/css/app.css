@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300&display=swap');
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle closest-side, rgb(4, 48, 192) 75%, white 80%, white 95%, transparent 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: radial-gradient(circle closest-side, white 95%, transparent 100%);
+}
